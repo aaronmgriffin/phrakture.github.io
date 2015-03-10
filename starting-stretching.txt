@@ -1,5 +1,5 @@
-Subject: Starting Stretching
-Date: Mon Aug 15 08:58:23 PDT 2011
+Title: Starting Stretching
+Date: 2012-11-29
 
 *New: Version 6 released November 29, 2012. See the Changelog at the bottom for details*
 
