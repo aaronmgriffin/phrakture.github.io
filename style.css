@@ -1,0 +1,184 @@
+/* Color Theme: Bolivian Sunrise
+ *  http://kuler.adobe.com/#themeID/1301306
+ * h1) #709E49
+ * h2) #A1CF7B
+ * h3) #ADCF91
+ * a) #94D69E
+ */
+
+/*** Basic Classes ***/
+
+body {
+    background: #373737;
+    color: #E5E5E5;
+    font: 90% 'Lucida Grande','Lucida Sans Unicode',Verdana,Tahoma,Arial,sans-serif;
+    line-height: 1.2em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+label { margin-left: 5px; }
+
+a {
+    color: #FAE89D;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a img {
+    border: 0;
+}
+
+p {
+    margin: 0 0 18px 0px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 2.5em;
+}
+
+ol {
+    list-style: decimal;
+    padding-left: 2.5em;
+}
+
+li {
+    padding: 0 4px;
+    color: #CCCCCC;
+    list-style: circle;
+}
+
+blockquote {
+    border-left:8px solid #CCCCCC;
+    background: #474747;
+    font-size: 1em;
+    margin: 20px 10px;
+    padding:10px;
+    padding-left:20px;
+}
+blockquote blockquote {
+    border: 0;
+    padding-right:20px;
+    text-align:right;
+    font-style: italic;
+}
+
+pre {
+    font-family: Monaco, Courier;
+    background: #191919;
+    border: dashed 1px #e5e5e5;
+    padding: 5px;
+    font-size:1em;
+    line-height: 1.4em;
+    clear:both;
+}
+
+h1 {
+    color: #F1C611;
+}
+
+h2 {
+    color: #FADC5F;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #FADC5F;
+}
+
+/*** Main layout ***/
+
+#everything {
+    color: #F4F4F4;
+    margin:10px auto;
+    padding:0;
+    width:1000px;
+}
+
+#header {
+    margin:0;
+    max-width: 1000em;
+    font-weight: bold;
+    font-size: 3em;
+    padding-left: 0;
+    margin: 0.7em;
+}
+
+#header a {
+    float:right;
+    font-family: Monofur, Monaco, Courier;
+    color: #888888;
+}
+
+#navigation {
+    font-size:0.8em;
+    padding-top: 80px;
+    text-align:right;
+}
+
+#navigation li { list-style: none; }
+
+#content {
+    float:left;
+    line-height:1.5em;
+    margin:0;
+    padding:0;
+    text-align:left;
+    width:750px;
+}
+
+#footer {
+    border-top:4px solid #dadada;
+    clear:both;
+    color: #808080;
+    font-size:0.9em;
+    line-height:1.6em;
+    margin:0 auto;
+    padding:8px 0;
+    text-align:right;
+}
+
+#footer a {
+    color: #808080;
+}
+
+/** Post specific stuff ***/
+
+.post {
+    padding: 0;
+    padding-top: 30px;
+    font-size:0.9em;
+    font-family: 'Lucida Grande','Lucida Sans','Lucida Sans Unicode',Helvetica,Tahoma;
+}
+
+.post-link {
+    font-size: 1.2em;
+}
+
+.post-date {
+    margin-top:-8px;
+    margin-bottom:0px;
+    text-align:right;
+    font-size:0.8em;
+    width:490px;
+    color:#709E49;
+}
+
+/*** Misc utility classes ***/
+
+.left {
+    border: 0;
+    float: left;
+    margin-right: 2em;
+}
+
+.right {
+    border: 0;
+    float: right;
+    margin-left: 2em;
+}
